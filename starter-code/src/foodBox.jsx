@@ -4,6 +4,7 @@ import React from 'react'
 class Foodbox extends React.Component{
 
 render(){
+  return(
 <div className="box">
   <article className="media">
     <div className="media-left">
@@ -36,7 +37,7 @@ render(){
       </div>
     </div>
   </article>
-</div>
+</div>)
 
 }}
 
